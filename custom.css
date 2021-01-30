@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Romant;
+    src: url('Romant.ttf');
+}
+
+header.masthead {
+    background-image: url('../img/owc-backgrounds/hires03.jpg');
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+header.masthead p {
+    font-weight: 550;
+}
+
+.parallax {
+    padding-top: 12rem;
+    padding-bottom: calc(12rem - 56px);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: background-image 1s linear;
+    width: auto;
+}
+
+.parallax-ref {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.mobile {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../img/owc-backgrounds/hires03.jpg');
+    background-size: 100%;
+    width: 100%;
+}
+
+.curtain {
+    opacity: .5;
+}
+
+[data-slides] {
+    background-image: url('../img/owc-backgrounds/hires03.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    transition: background-image 1s linear;
+}
+
+.references {
+    color: white;
+    background-color: #222;
+    opacity: .7;
+}
+
+.description {
+    padding: 5px 5px 5px 5px;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
