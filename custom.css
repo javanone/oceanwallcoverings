@@ -4,7 +4,7 @@
 }
 
 header.masthead {
-    background-image: url('../img/owc-backgrounds/hires03.jpg');
+    background-image: url('./img/owc-backgrounds/hires03.jpg');
     z-index: 1;
     background-repeat: no-repeat;
 }
@@ -38,7 +38,7 @@ header.masthead p {
     padding-bottom: calc(10rem - 56px);
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('../img/owc-backgrounds/hires03.jpg');
+    background-image: url('./img/owc-backgrounds/hires03.jpg');
     background-size: 100%;
     width: 100%;
 }
@@ -48,7 +48,7 @@ header.masthead p {
 }
 
 [data-slides] {
-    background-image: url('../img/owc-backgrounds/hires03.jpg');
+    background-image: url('./img/owc-backgrounds/hires03.jpg');
     background-repeat: no-repeat;
     background-position: center top;
     background-size: cover;
